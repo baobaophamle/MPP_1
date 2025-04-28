@@ -1,0 +1,126 @@
+
+body {
+    background-color: rgb(241, 211, 206);
+    margin: 0; /* Reset default body margin */
+}
+.centering-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    min-height: calc(100vh - 80px); /* Full height minus header height */
+}
+
+.signup-box {
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+    height: 550px; 
+    padding: 20px; 
+    background-color: rgb(246, 234, 203);
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-radius: 25px;   
+}
+
+.input-box input {
+    width: 335px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(246, 234, 203);
+    border-radius: 25px; 
+    background-color: rgb(255, 255, 224);
+}
+
+#signup {
+    font-size: 25px;
+    background-color:rgb(209, 233, 246);
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(209, 233, 246);
+    padding: 5px 10px;
+    width: 200px; /* Or whatever width you want */
+    display: block; /* Make it a block-level element */
+    margin: 0 auto;
+}    
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 202, 213);
+    height: 80px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    margin-left: 50px;
+}
+
+header div:last-child {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+header a:first-of-type {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header button:first-of-type { 
+    margin-left: 20px;  
+}
+
+header button {
+    font-size: 15px;
+    background-color: rgb(255, 255, 224);
+    margin-right: 30px;
+}
+
+#signin-btn, #signup-btn { 
+    font-size: 15px;
+    background-color:rgb(246, 234, 203);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(246, 234, 203);
+    padding: 5px 10px;
+}
+
+#signin-btn {
+    font-size: 20px;
+    padding: 8px 16px;
+}
+
+#signup-image {
+    display: block; /* Make it a block-level element */
+    margin-left: 50px; /* Adjust this value to control the left position */
+    margin-right: auto; /* Allow right margin to adjust */
+    margin-top: 20px; 
+}
