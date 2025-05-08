@@ -36,7 +36,7 @@ if (isset($_POST['dangky'])) {
 </head>
 <body>
     <header>
-        <div class="logo-container">  <img src="logo.png" height="80px" width="80px" alt="logo">
+        <div class="logo-container">  <a href="index.php"><img src="logo.png" height="80px" width="80px" alt="logo"></a>
         </div>
         <div align="right">         
         <a href="dangnhap.php"><button id="signin-btn">Bắt Đầu Học Ngay!</button></a>

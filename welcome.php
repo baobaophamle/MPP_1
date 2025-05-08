@@ -1,5 +1,3 @@
-<?php
-echo "Chúc mừng bạn đăng nhập thành công <br>"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +6,18 @@ echo "Chúc mừng bạn đăng nhập thành công <br>"; ?>
     <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="welcome-page">
     <header>
+    <div class="logo-container">  <a href="index.php"><img src="logo.png" height="80px" width="80px" alt="logo"></a>
+    </div>
     </header>   
-    <a href="quiz.php"><button id="signin-btn">Bấm vào đây để học</button></a>
+    <div class="welcome">
+        <h1>Chúc mừng bạn đăng nhập thành công!<br>
+            Rất tiếc chức năng học chưa sẵn sàng</h1>
+        <a href="index.php">
+            <button id="return">Bấm vào đây để quay về trang chủ</button>
+        </a>
+    </div>
 </body>
 </html>
 

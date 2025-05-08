@@ -1,13 +1,13 @@
 
 body {
-    background-color: rgb(241, 211, 206);
-    margin: 0; /* Reset default body margin */
+    background-color: rgb(254, 243, 226);
+    margin: 0;
 }
 .centering-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
-    min-height: calc(100vh - 80px); /* Full height minus header height */
+    justify-content: center;
+    align-items: center; 
+    min-height: calc(100vh - 80px);
 }
 
 .signup-box {
@@ -16,7 +16,7 @@ body {
     width: 400px;
     height: 550px; 
     padding: 20px; 
-    background-color: rgb(246, 234, 203);
+    background-color: rgb(255, 178, 44);
     border-radius: 20px; 
     display: flex;
     justify-content: center;
@@ -54,8 +54,8 @@ h2 {
     border-style: solid;
     border-color: rgb(209, 233, 246);
     padding: 5px 10px;
-    width: 200px; /* Or whatever width you want */
-    display: block; /* Make it a block-level element */
+    width: 200px;
+    display: block;
     margin: 0 auto;
 }    
 
@@ -63,7 +63,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(238, 202, 213);
+    background-color: rgb(255, 178, 44);
     height: 80px;
 }
 
@@ -119,8 +119,17 @@ header button {
 }
 
 #signup-image {
-    display: block; /* Make it a block-level element */
-    margin-left: 50px; /* Adjust this value to control the left position */
-    margin-right: auto; /* Allow right margin to adjust */
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
     margin-top: 20px; 
+}
+
+#signup {
+    border-radius: 30px;
+    background-color:rgb(250, 129, 47);
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: rgb(246, 234, 203);
+    font-weight: bold;
 }

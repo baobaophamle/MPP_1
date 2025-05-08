@@ -18,6 +18,17 @@ class User
     $users = db::execute($sql, $params);
     return $users;
     }
+    static public function dangky($data)
+    {
+        $sql = 'INSERT INTO users (user, email, password) values (:user, :email, :password)';
+        $result = db::execute($sql, $data);
+
+        if (is_array($result)) {
+            return count($result) > 0 ? $result[0] : null;
+        } else {
+            return $result ? true : null;
+        }
+    }
 
     static public function find($id)
     {
